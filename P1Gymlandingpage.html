@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Mulish:wght@200;400&display=swap"
+        rel="stylesheet">
+    <style>
+        /* css reset */
+        .bgimg1 {
+            padding: 0px;
+            margin: -8px;
+            background: url(img/yoga-2587066_1920.jpg);
+            background-size: 100%;
+            height: 1000px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            /* box-sizing: border-box; */
+            background-position: center;
+
+        }
+
+        .bgimg2 {
+            background: url(img/bgimg2.jpg);
+            height: 700px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .header {
+            /* border:2px solid cornsilk; */
+            background-color: rgba(193, 213, 237, 255);
+            margin: 0px;
+            height: 70px;
+            overflow: auto;
+            border-bottom: 2px solid white;
+
+
+        }
+
+        .headleft {
+            border: 2px solid rgb(255, 255, 255);
+            background-color: white;
+            display: inline-block;
+            position: absolute;
+            left: 70px;
+            top: 0px;
+            height: 100px;
+            line-height: 200%;
+        }
+
+        .headleft a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .headleft a:hover {
+            text-decoration: none;
+            color: #87bcf0;
+
+        }
+
+        .headleft img {
+            width: 126px;
+            /* filter: invert(100%); */
+            margin: 0px 0px;
+        }
+
+        .sitename {
+            text-align: center;
+            margin-top: -11px;
+            font-family: 'Dancing Script', cursive;
+            font-weight: bold;
+            font-size: 37px;
+
+        }
+
+        .headcenter {
+            /* border: 2px solid blue; */
+            width: 50%;
+            margin: 10px auto;
+
+        }
+
+        .headright {
+            /* border: 2px solid blue; */
+            display: inline-block;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        .navbar {
+            text-align: center;
+            margin: 24px auto;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 17px;
+
+        }
+
+        .navbar li a {
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            padding: 0px 33px;
+            font-family: 'Mulish', sans-serif;
+        }
+
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: white;
+            text-decoration: underline;
+
+        }
+
+        .headright button,
+        #formsubmit {
+            background-color: white;
+            border: white;
+            width: 97px;
+            padding: 3px;
+            margin: auto 6px;
+            font-family: 'Mulish', sans-serif;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        #formsubmit {
+            display: block;
+            margin: 25px auto;
+            width: 90%;
+            height: 35px;
+            background-color: #87bcf0;
+            font-weight: bold;
+            border-radius: 0px;
+            font-size: 20px;
+
+        }
+
+        .headright button:hover,
+        #formsubmit:hover {
+            /* background-color: #0a79c3; */
+            background-color: #82CCFC;
+            border: 1px solid white;
+        }
+
+        .formcontainer {
+            font-family: 'Mulish', sans-serif;
+            border: 2px solid rgba(7, 137, 214, 255);
+            background-color: rgb(255, 255, 255, 0.5);
+            width: 30%;
+            margin: 80px 70px;
+            padding: 10px;
+            border-radius: 0px;
+        }
+
+        .form input {
+            margin: 10px 15px;
+            padding: 10px;
+            width: 85%;
+            border: 2px solid #87bcf0;
+        }
+
+        #appointradio {
+            line-height: 200%;
+            margin: 12px;
+            display: inline;
+            width: 50px;
+            font-size: 16px;
+        }
+
+        .formcontainer h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .formtitle span {
+            font-family: 'Dancing Script', cursive;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .paralyxcont {
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            position: relative;
+            top: 50%
+        }
+
+        .paralyxcont span {
+            border: 2px solid white;
+            letter-spacing: 5px;
+            padding: 30px;
+            font-size: 40px;
+            background-color: black;
+            color: white;
+        }
+
+        .footercont {
+            background-color: white;
+            height: 100px;
+            /* height: auto; */
+            overflow: visible;
+            position: relative;
+            font-family: 'Dancing Script', cursive;
+            font-size: 80px;
+            text-align: center;
+            padding: 30px;
+
+        }
+
+        footer {
+            background-color: black;
+            height: 100px;
+            color: white;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 60px;
+            padding: 30px;
+            /* margin: 100px 0px 0px 0px; */
+        }
+    </style>
+</head>
+<div class="bgimg1">
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="headleft">
+            <a href="https://www.healthkart.com" target="_main">
+                <img src="img/logo.png" alt="trainme logo">
+                <div class="sitename">Trainme</div>
+            </a>
+        </div>
+        <!-- center box for navigation -->
+        <div class="headcenter">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Equipments</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for social media icons -->
+        <div class="headright">
+            <button>Call now</button>
+            <button>Email us</button>
+        </div>
+    </header>
+    <!-- form specification -->
+    <div class="formcontainer">
+        <h2 class="formtitle">Join <span> Trainme </span>Now !</h2>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Enter name">
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Mobile no.">
+            </div>
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Email address">
+            </div>
+            <div class="form_radio" id="appointradio"> Schedule appoitment
+                <input type="radio" name="slot1" id=""> 10am-2pm
+                <input type="radio" name="slot1" id=""> 5pm-9pm
+            </div>
+            <button class="form" id="formsubmit">Submit</button>
+        </form>
+    </div>
+</div>
+<div class="footercont">Thankyou for filling the form
+</div>
+<!-- background image 2  -->
+<div class="bgimg2">
+    <div class="paralyxcont">
+        <Span>paralyx effect</Span>
+    </div>
+</div>
+<footer>End of page</footer>
+
+<body>
+
+</body>
+
+</html>
